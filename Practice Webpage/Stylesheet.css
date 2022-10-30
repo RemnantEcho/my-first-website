@@ -1,0 +1,282 @@
+body {
+  background-color: #0A1429;
+  background-image: url("BSize.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: calibri;
+}
+
+.header{
+  padding-top: 25px;
+}
+
+.header h1{
+  display: none;
+}
+
+.logo {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.menu {
+  margin-top: 80px;
+  width: 100%;
+  display: block;
+}
+
+.menu ul {
+  position:relative;
+  list-style: none;
+}
+
+.back {
+  background-color: rgba(38,40,40,0.3);
+  border-radius: 20px;
+  padding-bottom: 5px;
+}
+
+.main {
+  width:84%;
+}
+
+.sidebar {
+  width:15%;
+  background:#1E2020;
+  float: right;
+  border-style: solid;
+  border-width: 1px;
+  border-top-width: 0px;
+  height: 472px;
+}
+
+.editor {
+  width:14%;
+  float: left;
+}
+
+.editor {
+  margin-top: 20px;
+  margin-left: 30px;
+  width:50px;
+  float:left;
+}
+
+.authorbox {
+  height:50px;
+  width:50px;
+  background-color: #222222;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #111111
+}
+
+.editor p {
+  font-size: 10px;
+  font-style: normal;
+  line-height: 120%;
+  margin: 5px 0 0;
+  text-align: center;
+  width: 50px;
+}
+
+.maininfo {
+  margin-right: 145px;
+  padding-top: 20px;
+}
+
+.sidebar p {
+  font-size: 14px;
+  color: #AAAAAA;
+  padding-left: 10px;
+}
+
+.sidebar li {
+  margin-left: -10px;
+  font-size: 12px;
+}
+
+.sidebar ul{
+  list-style-position: inside;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-left:25px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #FFFFFF;
+  
+}
+
+.nav {
+  background-color:#1E2020;
+  border-style: groove;
+  border-color: #262828;
+  border-width: 2px;
+
+}
+.nav a {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CCCCCC;
+}
+
+.nav li {
+  display: inline;
+}
+
+.maintext{
+  background-color:#1E2020;
+  color: #FFFFFF;
+  border-radius: 20px;
+  margin: 2px 0 20px 0;
+}
+
+.heading{
+  background-color:#1B1D1D;
+  height: 45px;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #111111;
+  font-size: 14px;
+  padding-bottom: 1px;
+}
+
+.maintext h2{
+  padding-left: 10px;
+  line-height: 45px;
+}
+
+#box {
+  margin-left: 100px;
+  padding: 10px 5px 10px 0px;
+  margin-bottom: 40px;
+}
+
+.maininfo p{
+  padding-left: 15px;
+  padding-left: 15px;
+  color: #CCCCCC;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 7px;
+}
+
+.date {
+  float:right;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  line-height: 30%;
+  margin-right: 15px;
+  height: 25px;
+}
+
+.date p {
+  color: #CCCCCC;
+  font-size: 14px;
+}
+
+.outpad{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+}
+
+.jumbotron {
+  background-image: url("SLBImage.jpg");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.jumbotron .container {
+  background-color: rgba(27,29,29,0.5);
+  position: relative;
+  height: 125px;
+  top: 309px;
+  z-index: 1;
+  color: #FFFFFF;
+}
+
+.jumbotron .container:hover {
+  background-color: rgba(27,29,29,0.8);
+}
+
+.jumbotron h1 {
+  font-size: 24px;
+  position: relative;
+  top: 20px;
+  left: 25px;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 16px;
+  position: relative;
+  top: 10px;
+  left: 25px;
+  z-index: 1;
+}
+
+.fullcontent {
+  margin-top: 8px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-top-color: #151515;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bround {
+  background-color:#1B1D1D;
+  border-top-color: #111111;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  height: 35px;
+  padding-top: 1px;
+}
+
+.fullcontent p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+  padding-right: 25px;
+  font-size: 13px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.fullcontent a {
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.editor a {
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.footer {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+}
